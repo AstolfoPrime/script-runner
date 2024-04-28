@@ -9,7 +9,7 @@ window = ctk.CTk()
 window.geometry("250x200")
 window.title("Script Runner")
 
-label = ctk.CTkLabel(master=window, text="Placeholder Text").pack(padx=10, pady=10)
+label = ctk.CTkLabel(master=window, text="Script Runner").pack(padx=10, pady=10)
 select_button = ctk.CTkButton(master=window, text="Select File", command=file_selector).pack(padx=10, pady=10)
 run_button = ctk.CTkButton(master=window, text="Run", command=run).pack(padx=10, pady=10)
 

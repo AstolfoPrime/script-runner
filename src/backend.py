@@ -7,4 +7,5 @@ def file_selector() -> str:
     return file
 
 def run() -> None:
-    os.system(f"./{file}")
+    with open(file, "r") as f:
+        os.system(f"./{file}")
